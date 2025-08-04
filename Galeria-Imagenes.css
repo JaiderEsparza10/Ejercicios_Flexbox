@@ -7,7 +7,8 @@
     padding: 20px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: 0px 4px 8px #000;
+    box-shadow: 0px 4px 8px rgba(104, 104, 104, 0.678);
+    margin-top: 10px;
 }
 
 .galeria-imagenes__items {

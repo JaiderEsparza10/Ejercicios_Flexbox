@@ -1,7 +1,10 @@
 @import url(Barra-Navegación.css); /* EJERCICIO NUMERO 1 */
 @import url(Tarjeta.css); /* EJERCICIO NUMERO 2 */
 @import url(Galeria-Imagenes.css); /* EJERCICIO NUMERO 3 */
-@import url(Formulario.css);
+@import url(Formulario.css); /* EJERCICIO NUMERO 4 */
+@import url(Seccion.css); /* EJERCICIO NUMERO 5 */
+@import url(Lista-Tareas.css); /* EJERCICIO NUMERO 6 */
+@import url();
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +15,7 @@
     --color-barra-navegacion:  #5e5e5e;
     --color-fondo-tarjeta: #9e9e9e;
     --color-fond-galeria: #3159a5;
+    --calor-lista-tareas: rgba(150, 150, 150, 0.486);
 }
 
 .titulos-puntos{
