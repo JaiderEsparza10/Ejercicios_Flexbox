@@ -1,0 +1,50 @@
+.tarjeta-producto{
+    width: 300px;
+    background-color: var(--color-fondo-tarjeta);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 2px solid rgb(110, 110, 110);
+    border-radius: 10px;
+}
+
+.tarjeta-producto__imagen{
+    width: 200px;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+
+.tarjeta-producto__texto{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 10px;  
+}
+
+.tarjeta-producto__boton--reservar{
+    background-color: rgb(25, 122, 25);
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(99, 99, 99);
+}
+
+.tarjeta-producto__boton--eliminar{
+    background-color: rgb(221, 26, 26);
+    width: 100px;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid rgb(99, 99, 99);
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
